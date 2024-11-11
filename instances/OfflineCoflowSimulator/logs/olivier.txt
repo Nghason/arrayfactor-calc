@@ -1,0 +1,400 @@
+Processing file TEST/off_random_m1_c5_in001.txt
+Nombre de coflows acceptes: 2
+sigma=[4, 3]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in002.txt
+Nombre de coflows acceptes: 1
+sigma=[2]
+Weighted CAR: 0.2
+Processing file TEST/off_random_m1_c5_in003.txt
+Nombre de coflows acceptes: 2
+sigma=[4, 5]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in004.txt
+Nombre de coflows acceptes: 4
+sigma=[1, 2, 4, 5]
+Weighted CAR: 0.8
+Processing file TEST/off_random_m1_c5_in005.txt
+Nombre de coflows acceptes: 4
+sigma=[1, 2, 4, 5]
+Weighted CAR: 0.8
+Processing file TEST/off_random_m1_c5_in006.txt
+Nombre de coflows acceptes: 4
+sigma=[1, 2, 4, 5]
+Weighted CAR: 0.8
+Processing file TEST/off_random_m1_c5_in007.txt
+Nombre de coflows acceptes: 4
+sigma=[1, 2, 4, 5]
+Weighted CAR: 0.8
+Processing file TEST/off_random_m1_c5_in008.txt
+Nombre de coflows acceptes: 4
+sigma=[1, 2, 4, 5]
+Weighted CAR: 0.8
+Processing file TEST/off_random_m1_c5_in009.txt
+Nombre de coflows acceptes: 4
+sigma=[1, 2, 4, 5]
+Weighted CAR: 0.8
+Processing file TEST/off_random_m1_c5_in010.txt
+Nombre de coflows acceptes: 4
+sigma=[1, 2, 4, 5]
+Weighted CAR: 0.8
+Processing file TEST/off_random_m1_c5_in011.txt
+Nombre de coflows acceptes: 2
+sigma=[2, 5]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in012.txt
+Nombre de coflows acceptes: 2
+sigma=[2, 5]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in013.txt
+Nombre de coflows acceptes: 2
+sigma=[2, 1]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in014.txt
+Nombre de coflows acceptes: 2
+sigma=[4, 2]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in015.txt
+Nombre de coflows acceptes: 2
+sigma=[2, 1]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in016.txt
+Nombre de coflows acceptes: 2
+sigma=[1, 5]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in017.txt
+Nombre de coflows acceptes: 2
+sigma=[4, 3]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in018.txt
+Nombre de coflows acceptes: 2
+sigma=[5, 1]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in019.txt
+Nombre de coflows acceptes: 2
+sigma=[3, 2]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in020.txt
+Nombre de coflows acceptes: 2
+sigma=[3, 5]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in021.txt
+Nombre de coflows acceptes: 2
+sigma=[4, 2]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in022.txt
+Nombre de coflows acceptes: 2
+sigma=[4, 2]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in023.txt
+Nombre de coflows acceptes: 1
+sigma=[5]
+Weighted CAR: 0.2
+Processing file TEST/off_random_m1_c5_in024.txt
+Nombre de coflows acceptes: 2
+sigma=[3, 5]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in025.txt
+Nombre de coflows acceptes: 2
+sigma=[4, 2]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in026.txt
+Nombre de coflows acceptes: 2
+sigma=[3, 4]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in027.txt
+Nombre de coflows acceptes: 2
+sigma=[2, 3]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in028.txt
+Nombre de coflows acceptes: 1
+sigma=[5]
+Weighted CAR: 0.2
+Processing file TEST/off_random_m1_c5_in029.txt
+Nombre de coflows acceptes: 2
+sigma=[5, 4]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in030.txt
+Nombre de coflows acceptes: 2
+sigma=[3, 2]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in031.txt
+Nombre de coflows acceptes: 1
+sigma=[2]
+Weighted CAR: 0.2
+Processing file TEST/off_random_m1_c5_in032.txt
+Nombre de coflows acceptes: 2
+sigma=[3, 4]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in033.txt
+Nombre de coflows acceptes: 2
+sigma=[4, 2]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in034.txt
+Nombre de coflows acceptes: 2
+sigma=[3, 1]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in035.txt
+Nombre de coflows acceptes: 1
+sigma=[4]
+Weighted CAR: 0.2
+Processing file TEST/off_random_m1_c5_in036.txt
+Nombre de coflows acceptes: 2
+sigma=[5, 4]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in037.txt
+Nombre de coflows acceptes: 2
+sigma=[3, 5]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in038.txt
+Nombre de coflows acceptes: 2
+sigma=[2, 4]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in039.txt
+Nombre de coflows acceptes: 2
+sigma=[2, 3]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in040.txt
+Nombre de coflows acceptes: 1
+sigma=[3]
+Weighted CAR: 0.2
+Processing file TEST/off_random_m1_c5_in041.txt
+Nombre de coflows acceptes: 2
+sigma=[2, 5]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in042.txt
+Nombre de coflows acceptes: 2
+sigma=[4, 2]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in043.txt
+Nombre de coflows acceptes: 2
+sigma=[2, 1]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in044.txt
+Nombre de coflows acceptes: 2
+sigma=[2, 3]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in045.txt
+Nombre de coflows acceptes: 2
+sigma=[2, 4]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in046.txt
+Nombre de coflows acceptes: 2
+sigma=[5, 1]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in047.txt
+Nombre de coflows acceptes: 2
+sigma=[2, 3]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in048.txt
+Nombre de coflows acceptes: 2
+sigma=[5, 4]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in049.txt
+Nombre de coflows acceptes: 2
+sigma=[1, 5]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in050.txt
+Nombre de coflows acceptes: 1
+sigma=[5]
+Weighted CAR: 0.2
+Processing file TEST/off_random_m1_c5_in051.txt
+Nombre de coflows acceptes: 2
+sigma=[2, 3]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in052.txt
+Nombre de coflows acceptes: 2
+sigma=[2, 1]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in053.txt
+Nombre de coflows acceptes: 2
+sigma=[4, 3]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in054.txt
+Nombre de coflows acceptes: 1
+sigma=[3]
+Weighted CAR: 0.2
+Processing file TEST/off_random_m1_c5_in055.txt
+Nombre de coflows acceptes: 2
+sigma=[1, 4]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in056.txt
+Nombre de coflows acceptes: 2
+sigma=[3, 5]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in057.txt
+Nombre de coflows acceptes: 1
+sigma=[2]
+Weighted CAR: 0.2
+Processing file TEST/off_random_m1_c5_in058.txt
+Nombre de coflows acceptes: 2
+sigma=[4, 5]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in059.txt
+Nombre de coflows acceptes: 1
+sigma=[5]
+Weighted CAR: 0.2
+Processing file TEST/off_random_m1_c5_in060.txt
+Nombre de coflows acceptes: 2
+sigma=[2, 3]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in061.txt
+Nombre de coflows acceptes: 2
+sigma=[2, 4]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in062.txt
+Nombre de coflows acceptes: 1
+sigma=[2]
+Weighted CAR: 0.2
+Processing file TEST/off_random_m1_c5_in063.txt
+Nombre de coflows acceptes: 2
+sigma=[5, 4]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in064.txt
+Nombre de coflows acceptes: 2
+sigma=[2, 1]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in065.txt
+Nombre de coflows acceptes: 2
+sigma=[2, 5]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in066.txt
+Nombre de coflows acceptes: 2
+sigma=[4, 3]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in067.txt
+Nombre de coflows acceptes: 1
+sigma=[5]
+Weighted CAR: 0.2
+Processing file TEST/off_random_m1_c5_in068.txt
+Nombre de coflows acceptes: 1
+sigma=[2]
+Weighted CAR: 0.2
+Processing file TEST/off_random_m1_c5_in069.txt
+Nombre de coflows acceptes: 2
+sigma=[4, 5]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in070.txt
+Nombre de coflows acceptes: 2
+sigma=[4, 2]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in071.txt
+Nombre de coflows acceptes: 2
+sigma=[5, 1]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in072.txt
+Nombre de coflows acceptes: 2
+sigma=[4, 1]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in073.txt
+Nombre de coflows acceptes: 2
+sigma=[3, 4]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in074.txt
+Nombre de coflows acceptes: 1
+sigma=[5]
+Weighted CAR: 0.2
+Processing file TEST/off_random_m1_c5_in075.txt
+Nombre de coflows acceptes: 2
+sigma=[3, 4]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in076.txt
+Nombre de coflows acceptes: 2
+sigma=[2, 3]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in077.txt
+Nombre de coflows acceptes: 1
+sigma=[5]
+Weighted CAR: 0.2
+Processing file TEST/off_random_m1_c5_in078.txt
+Nombre de coflows acceptes: 2
+sigma=[2, 3]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in079.txt
+Nombre de coflows acceptes: 2
+sigma=[2, 3]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in080.txt
+Nombre de coflows acceptes: 1
+sigma=[5]
+Weighted CAR: 0.2
+Processing file TEST/off_random_m1_c5_in081.txt
+Nombre de coflows acceptes: 2
+sigma=[5, 3]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in082.txt
+Nombre de coflows acceptes: 2
+sigma=[3, 2]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in083.txt
+Nombre de coflows acceptes: 2
+sigma=[4, 3]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in084.txt
+Nombre de coflows acceptes: 2
+sigma=[1, 4]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in085.txt
+Nombre de coflows acceptes: 2
+sigma=[4, 3]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in086.txt
+Nombre de coflows acceptes: 2
+sigma=[4, 5]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in087.txt
+Nombre de coflows acceptes: 2
+sigma=[1, 3]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in088.txt
+Nombre de coflows acceptes: 2
+sigma=[2, 1]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in089.txt
+Nombre de coflows acceptes: 2
+sigma=[5, 3]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in090.txt
+Nombre de coflows acceptes: 2
+sigma=[1, 2]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in091.txt
+Nombre de coflows acceptes: 2
+sigma=[1, 3]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in092.txt
+Nombre de coflows acceptes: 2
+sigma=[4, 1]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in093.txt
+Nombre de coflows acceptes: 2
+sigma=[4, 1]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in094.txt
+Nombre de coflows acceptes: 2
+sigma=[3, 1]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in095.txt
+Nombre de coflows acceptes: 2
+sigma=[2, 3]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in096.txt
+Nombre de coflows acceptes: 2
+sigma=[2, 1]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in097.txt
+Nombre de coflows acceptes: 1
+sigma=[5]
+Weighted CAR: 0.2
+Processing file TEST/off_random_m1_c5_in098.txt
+Nombre de coflows acceptes: 2
+sigma=[1, 5]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in099.txt
+Nombre de coflows acceptes: 2
+sigma=[2, 5]
+Weighted CAR: 0.4
+Processing file TEST/off_random_m1_c5_in100.txt
+Nombre de coflows acceptes: 1
+sigma=[2]
+Weighted CAR: 0.2

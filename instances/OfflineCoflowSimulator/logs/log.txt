@@ -1,0 +1,102 @@
+03-Mar-2023 12:58:40
+* use generator: random
+* use LP solver: cplexmilp
+* use deadline range: [1, 2]*CCT0 
+* use seed: 1
+* use config [2, 4], with flow_range = [1, 2]
+
+EXECUTION OF DCOFLOW ALGORITHM (variant: 'dcoflow_min_all')
+Processing time matrix D: [n_links * n_coflow]
+0.00000	0.75144	0.74599	0.00000
+1.11729	0.49812	0.00000	2.07546
+1.11729	0.00000	0.74599	0.92073
+0.00000	1.24956	0.00000	1.15473
+
+-----------------Unscheduled coflows = [1,2,3,4]-----------------
+Bottleneck is 2 with completion time 3.6909
+Coflows using b: Sb = [1,2,4]
+
+RejectCoflow: considering coflow 4 with deadline 3.1820
+Calculate psi_(l,k') = p_{l,k'}*(T_k'-sum_{k in S_b} p_{l,k})
+	on link 2: psi = 2.0755*(3.1820-3.6909) = -1.0561
+	on link 3: psi = 0.9207*(3.1820-2.7840) = 0.3665
+	on link 4: psi = 1.1547*(3.1820-2.4043) = 0.8981
+
+Decision: reject coflow 1 among those using bottleneck 2
+
+-----------------Unscheduled coflows = [2,3,4]-----------------
+Bottleneck is 2 with completion time 2.5736
+Coflows using b: Sb = [2,4]
+Coflow 4 can be scheduled as the last one on link 2
+
+-----------------Unscheduled coflows = [2,3]-----------------
+Bottleneck is 1 with completion time 1.4974
+Coflows using b: Sb = [2,3]
+Coflow 2 can be scheduled as the last one on link 1
+
+-----------------Unscheduled coflows = [3]-----------------
+Bottleneck is 3 with completion time 0.7460
+Coflows using b: Sb = [3]
+Coflow 3 can be scheduled as the last one on link 3
+sigma = [3,2,4,1]
+sigma* = [1]
+
+RemoveLateCoflow: consider coflow 1: cct = 3.6909, deadline = 1.2272
+Coflow 1 is definitely rejected
+
+EXECUTE CS-MHA ALGORITHM
+
+Processing time matrix D: [n_links * n_coflow]
+0.00000	0.75144	0.74599	0.00000
+1.11729	0.49812	0.00000	2.07546
+1.11729	0.00000	0.74599	0.92073
+0.00000	1.24956	0.00000	1.15473
+
+
+Run Moore-Hodgson on link 1 with coflows [1,2,3,4]
+	accepted coflows: S_{1} = [3,2]
+	rejected coflows: E_{1} = []
+
+Run Moore-Hodgson on link 2 with coflows [1,2,3,4]
+	accepted coflows: S_{2} = [1,2]
+	rejected coflows: E_{2} = [4]
+
+Run Moore-Hodgson on link 3 with coflows [1,2,3,4]
+	accepted coflows: S_{3} = [3,4]
+	rejected coflows: E_{3} = [1]
+
+Run Moore-Hodgson on link 4 with coflows [1,2,3,4]
+	accepted coflows: S_{4} = [2,4]
+	rejected coflows: E_{4} = []
+
+Preliminary results:
+	E_final = union(all E_ell) = [1,4]
+	S_final = S\E_final = [2,3]
+
+Sort S_final in increasing order of deadline (EDD):
+	Deadlines of coflows [3,2] are [1.4606,1.7758] => S_final = [2,4]
+
+Sort E_final in increasing order of max_{all ell} vol_{k,ell} / (T_k + epsilon)
+	c1: volume on link [1,2,3,4] are [0,1.1173,1.1173,0]
+		Criteria for c1 = max(c_vols)/(c.deadline + 1e-6)
+						= max(0,1.1173,1.1173,0)/(1.22717 + 1e-6)
+						= 1.11729/(1.22717 + 1e-6)
+						= 0.91046
+	c4: volume on link [1,2,3,4] are [0,2.0755,0.92073,1.1547]
+		Criteria for c4 = max(c_vols)/(c.deadline + 1e-6)
+						= max(0,2.0755,0.92073,1.1547)/(3.18203 + 1e-6)
+						= 2.07546/(3.18203 + 1e-6)
+						= 0.65224
+
+Finally:
+	S_final = [3,2], E_final = [4,1], sigma = [3,2,4,1]
+
+[2,4]
+t_total = 1.42188s (0.00039h), n_iters = 1
+method	rac_avg	wrac_avg	cct_norm_avg
+dcoflow_min_all	0.75	0.80	1.15
+sincronia	0.25	0.20	1.00
+cs_mha	0.75	0.80	1.15
+varys	0.25	0.20	1.00
+CdsOptim	0.75	0.80	1.64
+CdsRelax	0.50	0.40	1.69

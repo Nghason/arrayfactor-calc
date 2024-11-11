@@ -1,0 +1,146 @@
+25-Feb-2022 17:39:45
+* use generator: random
+* use LP solver: gurobi
+* use deadline range: [1, 2]*CCT0 
+* use seed: 1
+* use config [1, 8], with flow_range = [1, 1]
+
+EXECUTION OF DCOFLOW ALGORITHM
+Volume matrix D: [n_links * n_coflow]
+4	1	6	3	6	8	7	10
+4	1	6	3	6	8	7	10
+
+---------------------- Size of set S is 8 ----------------------
+
+Bottleneck is 1 with completion time 45.0000
+Dynamic programming: W = 19
+EDD order: [1, 2, 3, 4, 5, 6, 7, 8]
+Iteration 1 of dynamic programming (coflow 1),  Sb = [1,2,3,4,5,6,7,8]
+	w=0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	
+	P=0.00	4.00	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	
+	S={}	{1}	{}	{}	{}	{}	{}	{}	{}	{}	{}	{}	{}	{}	{}	{}	{}	{}	{}	{}	
+Iteration 2 of dynamic programming (coflow 2),  Sb = [1,2,3,4,5,6,7,8]
+	w=0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	
+	P=0.00	1.00	5.00	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	
+	S={}	{2}	{1,2}	{}	{}	{}	{}	{}	{}	{}	{}	{}	{}	{}	{}	{}	{}	{}	{}	{}	
+Iteration 3 of dynamic programming (coflow 3),  Sb = [1,2,3,4,5,6,7,8]
+	w=0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	
+	P=0.00	1.00	5.00	Inf	Inf	Inf	Inf	Inf	Inf	Inf	6.00	7.00	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	
+	S={}	{2}	{1,2}	{}	{}	{}	{}	{}	{}	{}	{3}	{2,3}	{}	{}	{}	{}	{}	{}	{}	{}	
+Iteration 4 of dynamic programming (coflow 4),  Sb = [1,2,3,4,5,6,7,8]
+	w=0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	
+	P=0.00	1.00	4.00	8.00	Inf	Inf	Inf	Inf	Inf	Inf	6.00	7.00	10.00	Inf	Inf	Inf	Inf	Inf	Inf	Inf	
+	S={}	{2}	{2,4}	{1,2,4}	{}	{}	{}	{}	{}	{}	{3}	{2,3}	{2,3,4}	{}	{}	{}	{}	{}	{}	{}	
+Iteration 5 of dynamic programming (coflow 5),  Sb = [1,2,3,4,5,6,7,8]
+	w=0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	
+	P=0.00	1.00	4.00	8.00	14.00	Inf	Inf	Inf	Inf	Inf	6.00	7.00	10.00	16.00	Inf	Inf	Inf	Inf	Inf	Inf	
+	S={}	{2}	{2,4}	{1,2,4}	{1,2,4,5}	{}	{}	{}	{}	{}	{3}	{2,3}	{2,3,4}	{2,3,4,5}	{}	{}	{}	{}	{}	{}	
+Iteration 6 of dynamic programming (coflow 6),  Sb = [1,2,3,4,5,6,7,8]
+	w=0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	
+	P=0.00	1.00	4.00	8.00	9.00	12.00	16.00	22.00	Inf	Inf	6.00	7.00	10.00	14.00	15.00	18.00	24.00	Inf	Inf	Inf	
+	S={}	{2}	{2,4}	{1,2,4}	{2,6}	{2,4,6}	{1,2,4,6}	{1,2,4,5,6}	{}	{}	{3}	{2,3}	{2,3,4}	{3,6}	{2,3,6}	{2,3,4,6}	{2,3,4,5,6}	{}	{}	{}	
+Iteration 7 of dynamic programming (coflow 7),  Sb = [1,2,3,4,5,6,7,8]
+	w=0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	
+	P=0.00	1.00	4.00	8.00	9.00	12.00	16.00	22.00	Inf	Inf	6.00	7.00	10.00	14.00	15.00	18.00	24.00	Inf	Inf	Inf	
+	S={}	{2}	{2,4}	{1,2,4}	{2,6}	{2,4,6}	{1,2,4,6}	{1,2,4,5,6}	{}	{}	{3}	{2,3}	{2,3,4}	{3,6}	{2,3,6}	{2,3,4,6}	{2,3,4,5,6}	{}	{}	{}	
+Iteration 8 of dynamic programming (coflow 8),  Sb = [1,2,3,4,5,6,7,8]
+	w=0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	
+	P=0.00	1.00	4.00	8.00	9.00	12.00	16.00	22.00	32.00	Inf	6.00	7.00	10.00	14.00	15.00	18.00	24.00	34.00	Inf	Inf	
+	S={}	{2}	{2,4}	{1,2,4}	{2,6}	{2,4,6}	{1,2,4,6}	{1,2,4,5,6}	{1,2,4,5,6,8}	{}	{3}	{2,3}	{2,3,4}	{3,6}	{2,3,6}	{2,3,4,6}	{2,3,4,5,6}	{2,3,4,5,6,8}	{}	{}	
+Max weight = 17
+Accepted coflows: [2,3,4,5,6,8]
+Rejected coflows: [1,7]
+
+RejectCoflow: considering coflow 7 with deadline 28.0000
+Calculate psi_(l,k') = p_{l,k'}*(T_k'-sum_{k in S_b} p_{l,k})
+	on link 1: psi = 7.0000*(28.0000-45.0000)=-119.0000
+	on link 2: psi = 7.0000*(28.0000-45.0000)=-119.0000
+
+Decision: reject coflow 1 among those using bottleneck 1
+
+---------------------- Size of set S is 7 ----------------------
+
+Bottleneck is 1 with completion time 41.0000
+Dynamic programming: W = 18
+EDD order: [2, 3, 4, 5, 6, 7, 8]
+Iteration 1 of dynamic programming (coflow 2),  Sb = [2,3,4,5,6,7,8]
+	w=0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	
+	P=0.00	1.00	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	
+	S={}	{2}	{}	{}	{}	{}	{}	{}	{}	{}	{}	{}	{}	{}	{}	{}	{}	{}	{}	
+Iteration 2 of dynamic programming (coflow 3),  Sb = [2,3,4,5,6,7,8]
+	w=0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	
+	P=0.00	1.00	Inf	Inf	Inf	Inf	Inf	Inf	Inf	Inf	6.00	7.00	Inf	Inf	Inf	Inf	Inf	Inf	Inf	
+	S={}	{2}	{}	{}	{}	{}	{}	{}	{}	{}	{3}	{2,3}	{}	{}	{}	{}	{}	{}	{}	
+Iteration 3 of dynamic programming (coflow 4),  Sb = [2,3,4,5,6,7,8]
+	w=0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	
+	P=0.00	1.00	4.00	Inf	Inf	Inf	Inf	Inf	Inf	Inf	6.00	7.00	10.00	Inf	Inf	Inf	Inf	Inf	Inf	
+	S={}	{2}	{2,4}	{}	{}	{}	{}	{}	{}	{}	{3}	{2,3}	{2,3,4}	{}	{}	{}	{}	{}	{}	
+Iteration 4 of dynamic programming (coflow 5),  Sb = [2,3,4,5,6,7,8]
+	w=0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	
+	P=0.00	1.00	4.00	10.00	Inf	Inf	Inf	Inf	Inf	Inf	6.00	7.00	10.00	16.00	Inf	Inf	Inf	Inf	Inf	
+	S={}	{2}	{2,4}	{2,4,5}	{}	{}	{}	{}	{}	{}	{3}	{2,3}	{2,3,4}	{2,3,4,5}	{}	{}	{}	{}	{}	
+Iteration 5 of dynamic programming (coflow 6),  Sb = [2,3,4,5,6,7,8]
+	w=0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	
+	P=0.00	1.00	4.00	8.00	9.00	12.00	18.00	Inf	Inf	Inf	6.00	7.00	10.00	14.00	15.00	18.00	24.00	Inf	Inf	
+	S={}	{2}	{2,4}	{6}	{2,6}	{2,4,6}	{2,4,5,6}	{}	{}	{}	{3}	{2,3}	{2,3,4}	{3,6}	{2,3,6}	{2,3,4,6}	{2,3,4,5,6}	{}	{}	
+Iteration 6 of dynamic programming (coflow 7),  Sb = [2,3,4,5,6,7,8]
+	w=0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	
+	P=0.00	1.00	4.00	8.00	9.00	12.00	18.00	25.00	Inf	Inf	6.00	7.00	10.00	14.00	15.00	18.00	24.00	Inf	Inf	
+	S={}	{2}	{2,4}	{6}	{2,6}	{2,4,6}	{2,4,5,6}	{2,4,5,6,7}	{}	{}	{3}	{2,3}	{2,3,4}	{3,6}	{2,3,6}	{2,3,4,6}	{2,3,4,5,6}	{}	{}	
+Iteration 7 of dynamic programming (coflow 8),  Sb = [2,3,4,5,6,7,8]
+	w=0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	
+	P=0.00	1.00	4.00	8.00	9.00	12.00	18.00	25.00	35.00	Inf	6.00	7.00	10.00	14.00	15.00	18.00	24.00	34.00	Inf	
+	S={}	{2}	{2,4}	{6}	{2,6}	{2,4,6}	{2,4,5,6}	{2,4,5,6,7}	{2,4,5,6,7,8}	{}	{3}	{2,3}	{2,3,4}	{3,6}	{2,3,6}	{2,3,4,6}	{2,3,4,5,6}	{2,3,4,5,6,8}	{}	
+Max weight = 17
+Accepted coflows: [2,3,4,5,6,8]
+Rejected coflows: [7]
+
+RejectCoflow: considering coflow 7 with deadline 28.0000
+Calculate psi_(l,k') = p_{l,k'}*(T_k'-sum_{k in S_b} p_{l,k})
+	on link 1: psi = 7.0000*(28.0000-41.0000)=-91.0000
+	on link 2: psi = 7.0000*(28.0000-41.0000)=-91.0000
+
+Decision: reject coflow 7 among those using bottleneck 1
+
+---------------------- Size of set S is 6 ----------------------
+
+Bottleneck is 2 with completion time 34.0000
+Coflow 8 can be scheduled as the last one on link 2
+
+---------------------- Size of set S is 5 ----------------------
+
+Bottleneck is 1 with completion time 24.0000
+Coflow 6 can be scheduled as the last one on link 1
+
+---------------------- Size of set S is 4 ----------------------
+
+Bottleneck is 1 with completion time 16.0000
+Coflow 5 can be scheduled as the last one on link 1
+
+---------------------- Size of set S is 3 ----------------------
+
+Bottleneck is 1 with completion time 10.0000
+Coflow 4 can be scheduled as the last one on link 1
+
+---------------------- Size of set S is 2 ----------------------
+
+Bottleneck is 1 with completion time 7.0000
+Coflow 3 can be scheduled as the last one on link 1
+
+---------------------- Size of set S is 1 ----------------------
+
+Bottleneck is 2 with completion time 1.0000
+Coflow 2 can be scheduled as the last one on link 2
+sigma = [2,3,4,5,6,8,7,1]
+sigma* = [7,1]
+
+RemoveLateCoflow: consider coflow 7: cct = 41.0000, deadline = 28.0000
+Coflow 7 is definitely rejected
+
+RemoveLateCoflow: consider coflow 1: cct = 38.0000, deadline = 6.0000
+Coflow 1 is definitely rejected
+
+[1,8]
+t_total = 0.000h, n_iters = 1
+method	rac_avg	cct_norm_avg
+dcoflow_dp	0.75	3.04
